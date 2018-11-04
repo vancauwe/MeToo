@@ -31,10 +31,10 @@ Ideally use :
 [metootweets.csv](https://data.world/rdeeds/350k-metoo-tweets), raw CSV database, Ryan Deed.
 
 Which has the following features:
--name of twitter user
--number of followers
--written content of tweet
--creation date
+- name of twitter user
+- number of followers
+- written content of tweet
+- creation date
 
 Period : between October 2017 and February 2018.
 Number of Tweets: 350 000 tweets. 
@@ -46,14 +46,14 @@ else :
 [MeToo.sqlite](https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY), pre-processed SQLite database, Kai Hirota.
 
 Which has the following features:
--name of twitter user
--number of followers
--written content of tweet
--number of retweets
--language
--country
--city or state
--creation date
+- name of twitter user
+- number of followers
+- written content of tweet
+- number of retweets
+- language
+- country
+- city or state
+- creation date
 
 Period : between November 29th and December 25th, 2017 (too short ?).
 Number of Tweets: 390 000 tweets. 
