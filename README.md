@@ -1,10 +1,10 @@
 # #METOO: : a Spatio-Temporal, Social, Political, and Gender Based Analysis using its Propagation on Twitter
 
-#Abstract
+# Abstract
 
 The #MeToo movement is a global movement against sexual abuse. It spread virally in October 2017 as a hashtag used on social media in order to show the widespread phenomenon of sexual harassment, particularly in the workplace. The idea is to fearlessly talk about any sexual abuse one might experience and to rebel against the culture of staying silent after going through such traumatising experiences. A lot of celebrities participated in this movement by highlighting their stories on social media, including renowned actress, personalities, and politics, but also persons from simple backgrounds. As a team we are motivated to understand the movement because of its intensity and controverse. It is a challenge to put aside our personal opinion as individuals and consider only the data around this thematic to arrive to an interesting yet objective datastory. 
 
-#Research Questions
+# Research Questions
 
 From most factual and clean to more interpreting and subjective Data Handling: 
 
@@ -26,7 +26,7 @@ Trying to use the above questions to answer more precise and controversial quest
 
 
 
-#Datasets
+# Datasets
 
 OPTION 1 
 Ideally use: 
@@ -57,12 +57,12 @@ Which has the following features:
 & Combined with an API request to get additional information for the referenced Twitter users. (localisation and gender information)
 
 
-#Internal milestones till milestone 2
+# Internal milestones till milestone 2
 
 Find how to process an sqlite file format to be able to use an interesting data set AND/OR make an API request using Twitter user ID. 
 
 Extract the raw data such as:
-- # used, 
+- the hashtags (#) used, 
 - @ references, 
 - number of followers, 
 - gender, 
@@ -75,7 +75,7 @@ Extract the raw data such as:
 3. Process this data into usable structures and evaluate if their output is pertinent for the subsequent data story. 
 
 
-#TA Questions
+# TA Questions
 
 Can we try to webscrap for information about the Twitter users (notably geographic info) using Twitter API? 
 in other words: How do we get geolocalisation and gender info from Twitter using just a user ID? 
