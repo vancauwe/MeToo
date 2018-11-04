@@ -25,7 +25,6 @@ Trying to use the above questions to answer more precise and controversial quest
 - Group effect, cathartic experience, collecting together, showing the example... How did technology and social media give women a voice and a sense of bravery in calling out ? Did it spun out of control ? Is there a danger of witch-hunt effect ? Could a similar movement have happened without social media ? And if yes, how ?
 
 
-
 # Datasets
 
 **OPTION 1**
@@ -43,6 +42,8 @@ Which has the following features:
 -city or state
 -creation date
 
+Number of Tweets: 390 000 tweets. 
+
 **OPTION 2**
 Else : 
 [metootweets.csv](https://data.world/rdeeds/350k-metoo-tweets)
@@ -53,22 +54,24 @@ Which has the following features:
 -written content of tweet
 -creation date
 
+Number of Tweets: 350 000 tweets. 
+
 & Combined with an API request to get additional information for the referenced Twitter users. (localisation and gender information)
 
 
 # Internal milestones till milestone 2
 
-Find how to process an sqlite file format to be able to use an interesting data set AND/OR make an API request using Twitter user ID. 
+1. Find how to process an sqlite file format to be able to use an interesting data set AND/OR make an API request using Twitter user ID. 
 
-Extract the raw data such as:
+2. Extract the raw data such as:
 - the hashtags (#) used, 
 - @ references, 
 - number of followers, 
 - gender, 
 - geolocalisation, 
 - retweets or reply, 
-- timestamps of the tweets
-- negative or positive language in the tweets
+- timestamps of the tweets,
+- negative or positive language in the tweets,
 - key words for in depth analysis (for example: “Trump”)
 
 3. Process this data into usable structures and evaluate if their output is pertinent for the subsequent data story. 
@@ -76,12 +79,12 @@ Extract the raw data such as:
 
 # TA Questions
 
-Can we try to webscrap for information about the Twitter users (notably geographic info) using Twitter API? 
+- Can we try to webscrap for information about the Twitter users (notably geographic info) using Twitter API? 
 in other words: How do we get geolocalisation and gender info from Twitter using just a user ID? 
 
-How do you process an sqlite data format? 
+- How do you process an sqlite data format? 
 
-How can we define useful keywords for data processing steps such as sentimental analysis (which words are pejorative or positive) or how to extract keywords related to gender, age, fame, profession etc…? 
+- How can we define useful keywords for data processing steps such as sentimental analysis (which words are pejorative or positive) or how to extract keywords related to gender, age, fame, profession etc…? 
 
 
 
