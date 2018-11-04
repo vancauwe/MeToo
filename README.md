@@ -1,4 +1,4 @@
-# #METOO: : a Spatio-Temporal, Social, Political, and Gender Based Analysis using its Propagation on Twitter
+# The #MeToo movement and its propagation on Twitter : a Spatio-Temporal, Social, Political, and Gender Based Analysis
 
 # Abstract
 
@@ -12,7 +12,7 @@ From most factual and clean to more interpreting and subjective Data Handling:
 
 - Did this mobilization rely more on tweets (personal stories), or on reply/retweets (sharing to show support) ?
 
-- How did it start, how did it spread in time and in space ? Can we clearly identify the origin of the movement ? Why is this happening in 2017 ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? How global is it ? How did people from different countries react (cultural aspect) ?
+- How did it start, how did it spread in time and in space ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? How global is it ? How did people from different countries react (cultural aspect) ?
 
 - How did the public opinion react ? Which were the main hot topics discussed ? (sentiment analysis, natural language processing, lexical fields)
 
@@ -22,15 +22,28 @@ From most factual and clean to more interpreting and subjective Data Handling:
 
 Trying to use the above questions to answer more precise and controversial questions: 
 
-- Group effect, cathartic experience, collecting together, showing the example... How did technology and social media give women a voice and a sense of bravery in calling out ? Did it spun out of control ? Is there a danger of witch-hunt effect ? Could a similar movement have happened without social media ? And if yes, how ?
-
+- Group effect, cathartic experience, collecting together, showing the example... How did technology and social media give women a voice and a sense of bravery in calling out ? Did it spun out of control ? Is there a danger of witch-hunt effect ? Could a similar movement have happened without social media ?
 
 # Datasets
 
 **OPTION 1**
-Ideally use: 
+Ideally use : 
+[metootweets.csv](https://data.world/rdeeds/350k-metoo-tweets), raw CSV database, Ryan Deed.
 
-[MeToo.sqlite](https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY) :
+Which has the following features:
+-name of twitter user
+-number of followers
+-written content of tweet
+-creation date
+
+Period : between October 2017 and February 2018.
+Number of Tweets: 350 000 tweets. 
+
+& Combined with an API request to get additional information for the referenced Twitter users. (localisation and gender information)
+
+**OPTION 2**
+else : 
+[MeToo.sqlite](https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY), pre-processed SQLite database, Kai Hirota.
 
 Which has the following features:
 -name of twitter user
@@ -42,22 +55,8 @@ Which has the following features:
 -city or state
 -creation date
 
+Period : between November 29th and December 25th, 2017 (too short ?).
 Number of Tweets: 390 000 tweets. 
-
-**OPTION 2**
-Else : 
-[metootweets.csv](https://data.world/rdeeds/350k-metoo-tweets)
-
-Which has the following features:
--name of twitter user
--number of followers
--written content of tweet
--creation date
-
-Number of Tweets: 350 000 tweets. 
-
-& Combined with an API request to get additional information for the referenced Twitter users. (localisation and gender information)
-
 
 # Internal milestones till milestone 2
 
@@ -84,7 +83,9 @@ in other words: How do we get geolocalisation and gender info from Twitter using
 
 - How do you process an sqlite data format? 
 
-- How can we define useful keywords for data processing steps such as sentimental analysis (which words are pejorative or positive) or how to extract keywords related to gender, age, fame, profession etc…? 
+- How can we know if a tweet supports or oppose the movement (e.g. a tweet with pejorative words like "horrible", "blame", "prison" can yet support the movement) ? Can we define arbitrar keywords for identifying support and other ones for opposition ?
+
+- How to define keywords related to age, fame, profession, race, etc…? (in order to make a link between the movement and hypothetical users informations)
 
 
 
