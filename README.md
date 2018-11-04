@@ -1,4 +1,4 @@
-# #METOO: : a Spatio-Temporal, Social, Political, and Gender Based Analysis using its Propagation on Twitter
+# #MeToo: : a Spatio-Temporal, Social, Political, and Gender Based Analysis using its Propagation on Twitter
 
 # Abstract
 
@@ -29,7 +29,6 @@ Trying to use the above questions to answer more precise and controversial quest
 
 **OPTION 1**
 Ideally use: 
-
 [MeToo.sqlite](https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY) :
 
 Which has the following features:
