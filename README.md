@@ -28,10 +28,10 @@ Trying to use the above questions to answer more precise and controversial quest
 
 # Datasets
 
-OPTION 1 
+**OPTION 1**
 Ideally use: 
 
-MeToo.sqlite (https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY) :
+[MeToo.sqlite] (https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY) :
 
 Which has the following features:
 -name of twitter user
@@ -43,9 +43,9 @@ Which has the following features:
 -city or state
 -creation date
 
-OPTION 2
+**OPTION 2**
 Else : 
-metootweets.csv
+[metootweets.csv]
 (https://data.world/rdeeds/350k-metoo-tweets)
 
 Which has the following features:
