@@ -6,21 +6,21 @@ The #MeToo movement is a global movement against sexual abuse. It spread virally
 
 # Research Questions
 
-From most factual and clean to more interpreting and subjective Data Handling: 
+From most factual and clean to more interpreting and subjective data handling: 
 
-Temporal Analysis: 
-{data presented in Data Exploration Notebook}
+- Temporal Analysis: 
+{presented in 1-DataExploration.ipynb}
 How did it start, how did it spread in time ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? 
 
-Sentimental Analysis: 
-{data extracted into features_per_tweet.csv}
+- Sentimental Analysis: 
+{presented in 2-SentimentalAnalysis.ipynb, results extracted into features_per_tweet.csv}
 How did the public opinion react ? Which were the main hot topics discussed ? (sentiment analysis, natural language processing, lexical fields)
 
-Gender Analysis:
-{data extracted into genderData.csv}
-What was the role of men within this movement ? Can we associate #metoo movement with a gender debate ? 
+- Gender Analysis:
+{presented n 3-GenderAnalysis.ipynb, results extracted into genderData.csv}
+What was the role of men within this movement ? Can we associate #metoo movement with a gender debate ?
 
-Open ended data interpretation Question: 
+Open-ended data interpretation question: 
 
 - Group effect, cathartic experience, collecting together, showing the example... How did technology and social media give women a voice and a sense of bravery in calling out ? Did it spun out of control ? Is there a danger of witch-hunt effect ? Could a similar movement have happened without social media ?
 
