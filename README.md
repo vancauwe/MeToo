@@ -10,7 +10,7 @@ From most factual and clean to more interpreting and subjective Data Handling:
 
 Temporal Analysis: 
 {data presented in Data Exploration Notebook}
-How did it start, how did it spread in time and in space ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? 
+How did it start, how did it spread in time ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? 
 
 Sentimental Analysis: 
 {data extracted into features_per_tweet.csv}
