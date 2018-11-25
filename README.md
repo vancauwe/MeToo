@@ -1,4 +1,4 @@
-# The #MeToo movement and its propagation on Twitter : a Spatio-Temporal, Social, Political, and Gender Based Analysis
+# The #MeToo movement and its propagation on Twitter : a Temporal, Gender Based and Sentimental Analysis
 
 # Abstract
 
@@ -8,26 +8,24 @@ The #MeToo movement is a global movement against sexual abuse. It spread virally
 
 From most factual and clean to more interpreting and subjective Data Handling: 
 
-- Which hashtags and users were the more associated to #metoo ? Who are the main influencers and targets ? (@)
+Temporal Analysis: 
+{data presented in Data Exploration Notebook}
+How did it start, how did it spread in time and in space ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? 
 
-- Did this mobilization rely more on tweets (personal stories), or on reply/retweets (sharing to show support) ?
+Sentimental Analysis: 
+{data extracted into features_per_tweet.csv}
+How did the public opinion react ? Which were the main hot topics discussed ? (sentiment analysis, natural language processing, lexical fields)
 
-- How did it start, how did it spread in time and in space ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? How global is it ? How did people from different countries react (cultural aspect) ?
+Gender Analysis:
+{data extracted into genderData.csv}
+What was the role of men within this movement ? Can we associate #metoo movement with a gender debate ? 
 
-- How did the public opinion react ? Which were the main hot topics discussed ? (sentiment analysis, natural language processing, lexical fields)
-
-- What was the role of men within this movement ? Can we associate #metoo movement with a gender debate ? 
-
-- Is it more a popular or a political movement ? How much is it a backlash against Trump administration ?
-
-Trying to use the above questions to answer more precise and controversial questions: 
+Open ended data interpretation Question: 
 
 - Group effect, cathartic experience, collecting together, showing the example... How did technology and social media give women a voice and a sense of bravery in calling out ? Did it spun out of control ? Is there a danger of witch-hunt effect ? Could a similar movement have happened without social media ?
 
 # Datasets
 
-**OPTION 1**
-Ideally use : 
 [metootweets.csv](https://data.world/rdeeds/350k-metoo-tweets), raw CSV database, Ryan Deed.
 
 Which has the following features:
@@ -39,53 +37,31 @@ Which has the following features:
 Period : between October 2017 and February 2018.
 Number of Tweets: 350 000 tweets. 
 
-& Combined with an API request to get additional information for the referenced Twitter users. (localisation and gender information)
 
-**OPTION 2**
-else : 
-[MeToo.sqlite](https://data.world/from81/390k-metoo-tweets-cleaned?fbclid=IwAR0JG4UvQurBZGPD7hWQzOOXZ_EAEL2EwiMYR4kLleQMjSPYtdaj4QgsuIY), pre-processed SQLite database, Kai Hirota.
+# Internal milestones till milestone 3
 
-Which has the following features:
-- name of twitter user
-- number of followers
-- written content of tweet
-- number of retweets
-- language
-- country
-- city or state
-- creation date
+Achieved for Milestone 2: 
+Temporal data exploration
+Sentimental data extraction using LIWC
+Gender data extraction using genderperform
 
-Period : between November 29th and December 25th, 2017 (too short ?).
-Number of Tweets: 390 000 tweets. 
+1. Sentimental Analysis Exploration 
 
-# Internal milestones till milestone 2
+2. Bivariate Gender-based and Sentimental Analysis 
 
-1. Find how to process an sqlite file format to be able to use an interesting data set AND/OR make an API request using Twitter user ID. 
+3. Bivariate Temporal and Sentimental Analysis
 
-2. Extract the raw data such as:
-- the hashtags (#) used, 
-- @ references, 
-- number of followers, 
-- gender, 
-- geolocalisation, 
-- retweets or reply, 
-- timestamps of the tweets,
-- negative or positive language in the tweets,
-- key words for in depth analysis (for example: “Trump”)
+4. Bivariate Temporal and Gender-based Analysis
 
-3. Process this data into usable structures and evaluate if their output is pertinent for the subsequent data story. 
+5. Data Story construction and presentation
+
 
 
 # TA Questions
 
-- Can we try to webscrap for information about the Twitter users (notably geographic info) using Twitter API? 
-in other words: How do we get geolocalisation and gender info from Twitter using just a user ID? 
-
-- How do you process an sqlite data format? 
-
-- How can we know if a tweet supports or oppose the movement (e.g. a tweet with pejorative words like "horrible", "blame", "prison" can yet support the movement) ? Can we define arbitrar keywords for identifying support and other ones for opposition ?
-
-- How to define keywords related to age, fame, profession, race, etc…? (in order to make a link between the movement and hypothetical users informations)
+What are the best tools for data story creations? If we want to have for example:
+- interactive timelines
+- interactive graphs  
 
 
 
