@@ -40,7 +40,7 @@ Number of Tweets: 350 000 tweets.
 
 # Internal milestones till milestone 3
 
-Achieved for Milestone 2: 
+Achieved for Milestone 2 : 
 Temporal data exploration
 Sentimental data extraction using LIWC
 Gender data extraction using genderperform
