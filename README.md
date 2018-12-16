@@ -10,16 +10,13 @@ The #MeToo movement is a global movement against sexual abuse. It spread virally
 
 From most factual and clean to more interpreting and subjective data handling: 
 
-- Temporal Analysis: 
-{presented in 1-DataExploration.ipynb}
+- **Temporal Analysis** : 
 How did it start, how did it spread in time ? Can we clearly identify the origin of the movement ? Are there key moments ? Can we correlate activity peaks with public events (accused star, public affairs, etc.) ? 
 
-- Sentimental Analysis: 
-{presented in 2-SentimentalAnalysis.ipynb, results extracted into features_per_tweet.csv}
+- **Sentimental Analysis** (results extracted into features_per_tweet.csv) :
 How did the public opinion react ? Which were the main hot topics discussed ? (sentiment analysis, natural language processing, lexical fields)
 
-- Gender Analysis:
-{presented n 3-GenderAnalysis.ipynb, results extracted into genderData.csv}
+- **Gender Analysis** (results extracted into genderData.csv) :
 What was the role of men within this movement ? Can we associate #metoo movement with a gender debate ?
 
 Open-ended data interpretation question: 
@@ -40,33 +37,33 @@ Period : between October 2017 and February 2018.
 Number of Tweets: 350 000 tweets. 
 
 
-# Internal milestones till milestone 3
+# Internal milestones
 
-Achieved for Milestone 2 : 
-Temporal data exploration
-Sentimental data extraction using LIWC
-Gender data extraction using genderperform
+Achieved : 
 
-1. Sentimental Analysis Exploration 
-
-2. Bivariate Gender-based and Sentimental Analysis 
-
-3. Bivariate Temporal and Sentimental Analysis
-
-4. Bivariate Temporal and Gender-based Analysis
-
-5. Data Story construction and presentation
+- Temporal data exploration
+- Sentimental data extraction using LIWC
+- Gender data extraction using genderperform
+- Interactive timeline figure, including major events
+- Shaped wordcloud
+- LDA topic clustering
+- Sentimental Analysis Exploration 
+- Bivariate Gender-based and Sentimental Analysis 
+- Bivariate Temporal and Sentimental Analysis
+- Bivariate Temporal and Gender-based Analysis
+- Data Story construction and presentation
 
 # Contribution of group members
 
-**Laure** : gender data extraction using genderperform, sentimental data using LIWC extraction and application, plotly figures (Overall sentimental & Bivariate sentimental (gender, time) Analysis), textual analysis.
+**Laure** : gender data extraction using genderperform, sentimental data using LIWC extraction and application, plotly figures (overall sentimental & bivariate sentimental (gender, time) analysis), textual analysis.
 
 **Caroline** : gender data extraction using genderperform, date and context research about the movement for the timeline, data story design and formatting using jekyll, textual analysis.
 
-**Arthur** : raw data exploration and analysis, word cloud creation, interactive word evolution timeline, LDA topic clustering figure, textual analysis.
+**Arthur** : raw data exploration and analysis, word cloud coding, interactive hashtag evolution timeline, LDA topic clustering (coding and displaying), textual analysis.
 
 
 # Final Data Story
-Please find our final product, our data story, here: https://art345.github.io/#topic=4&lambda=1&term=
 
-Note: for more details about how the data story using beautiful_jekyll was constructed and created, we invite you to go to the git of origin: https://github.com/art345/art345.github.io
+Please find our final product, our data story, here : https://art345.github.io/
+
+**Note** : for more details about how the data story using beautiful_jekyll was constructed and created, we invite you to go to the git of origin: https://github.com/art345/art345.github.io
