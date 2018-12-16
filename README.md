@@ -1,6 +1,6 @@
 # The #MeToo movement and its propagation on Twitter : a Temporal, Gender Based and Sentimental Analysis
 
-Please visit our resulting data story webiste at https://art345.github.io/
+Please visit the resulting data story webiste at https://art345.github.io/
 
 # Abstract
 
