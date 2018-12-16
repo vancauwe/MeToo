@@ -55,4 +55,10 @@ Gender data extraction using genderperform
 
 5. Data Story construction and presentation
 
+# Contribution of group members
 
+Laure : sentimental data extraction using LIWC, gender data extraction using genderperform, plotting figures with LIWC and genderperform outputs.
+
+Caroline : gender data extraction using genderperform, researchs about the movement timeline, data story design, textual analysis.
+
+Arthur : raw data analysis, word cloud, interactive timeline, LDA topic clustering.
