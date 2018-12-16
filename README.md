@@ -34,7 +34,7 @@ Which has the following features:
 - creation date
 
 Period : between October 2017 and February 2018.
-Number of Tweets: 350 000 tweets. 
+Number of Tweets: about 380 000 tweets. 
 
 
 # Internal milestones
@@ -54,6 +54,8 @@ Achieved :
 - Data Story construction and presentation
 
 # Contribution of group members
+
+All the three members will contribute to the final presentation (poster creation and oral preparation).
 
 **Laure** : gender data extraction using genderperform, sentimental data using LIWC extraction and application, plotly figures (overall sentimental & bivariate sentimental (gender, time) analysis), textual analysis.
 
