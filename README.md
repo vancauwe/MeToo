@@ -56,14 +56,3 @@ Gender data extraction using genderperform
 5. Data Story construction and presentation
 
 
-
-# TA Questions
-
-What are the best tools for data story creations? If we want to have for example:
-- interactive timelines
-- interactive graphs  
-
-How to take away warnings when loading our data? 
-
-
-
