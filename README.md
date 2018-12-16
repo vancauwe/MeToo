@@ -57,8 +57,14 @@ Gender data extraction using genderperform
 
 # Contribution of group members
 
-**Laure** : sentimental data extraction using LIWC, gender data extraction using genderperform, plotting figures with LIWC and genderperform outputs.
+**Laure** : gender data extraction using genderperform, sentimental data using LIWC extraction and application, plotly figures (Overall sentimental & Bivariate sentimental (gender, time) Analysis), textual analysis.
 
-**Caroline** : gender data extraction using genderperform, researchs about the movement timeline, data story design, textual analysis.
+**Caroline** : gender data extraction using genderperform, date and context research about the movement for the timeline, data story design and formatting using jekyll, textual analysis.
 
-**Arthur** : raw data analysis, word cloud, interactive timeline, LDA topic clustering.
+**Arthur** : raw data exploration and analysis, word cloud creation, interactive word evolution timeline, LDA topic clustering figure, textual analysis.
+
+
+# Final Data Story
+Please find our final product, our data story, here: https://art345.github.io/#topic=4&lambda=1&term=
+
+Note: for more details about how the data story using beautiful_jekyll was constructed and created, we invite you to go to the git of origin: https://github.com/art345/art345.github.io
